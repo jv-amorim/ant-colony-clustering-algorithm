@@ -11,11 +11,12 @@ def gera_objetos():
     for x in range(len(objetos)):
         for y in range(len(objetos[x])):
             if y == 0:
-                objetos[x][y] = round(random.uniform(1.5, 2.10), 2)
-                print("altura = ", objetos[x][y])
+                objetos[x][y] = random.uniform(1.5, 2.10)
+                print("altura = ", "{:.2f}".format(objetos[x][y]))
             else:
-                objetos[x][y] = round(random.uniform(0, 1), 2)
-                print("media = ", objetos[x][y])
+                objetos[x][y] = random.uniform(0, 1)
+                print("media = ", "{:.2f}".format(objetos[x][y]))
 
 
 gera_objetos()
+
