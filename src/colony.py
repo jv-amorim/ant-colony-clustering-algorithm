@@ -37,7 +37,8 @@ class Colony:
     for ant in self.ants:
       if ant.is_holding:
         ant.move()
-        self.__make_the_ant_try_to_drop_her_current_item(ant)
+        if ant.is_holding:
+          self.__make_the_ant_try_to_drop_her_current_item(ant)
       else:
         while not ant.is_holding:
           self.__make_the_ant_try_to_pick_a_random_item(ant)

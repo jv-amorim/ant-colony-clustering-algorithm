@@ -31,8 +31,15 @@ class Ant:
 
     (neighborhood_start, neighborhood_end) = self.calculate_neighborhood(3)
     new_position = None
+    iteration_count = 0
     
     while new_position is None:
+      iteration_count += 1
+      is_the_ant_cornered = iteration_count >= 100
+      if is_the_ant_cornered:
+        self.is_holding = False
+        return
+
       x = random.randint(neighborhood_start[0], neighborhood_end[0])
       y = random.randint(neighborhood_start[1], neighborhood_end[1])
 
