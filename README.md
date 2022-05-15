@@ -18,4 +18,4 @@ O algoritmo pode ser configurado modificando as seguintes constantes no arquivo 
 |ALPHA          |Dependência entre os dados                         |
 |ANT_QUANTITY   |Quantidade de formigas na colônia                  |
 |MAX_ITERATIONS |Quant. máxima de iterações na fase de agrupamento  |
-|ITEMS_DATA     |Dados que serão agrupados                          |
+|DATA_SOURCE    |Fonte dos dados que serão agrupados                |

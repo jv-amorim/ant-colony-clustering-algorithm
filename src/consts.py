@@ -1,4 +1,4 @@
-import numpy as np
+from data import DataSources, get_items_data
 
 
 S = 3
@@ -7,13 +7,9 @@ KD = 0.3
 ALPHA = 0.5
 ANT_QUANTITY = 3
 MAX_ITERATIONS = 500
-ITEMS_DATA = np.array([[1.60, 0.70],
-                       [1.64, 0.90],
-                       [1.85, 0.03],
-                       [1.53, 0.60],
-                       [1.89, 0.10],
-                       [1.83, 0.06]])
+DATA_SOURCE = DataSources.Players
 
 
-# Don't modify the following constants. They are generated in runtime according to the ITEMS_DATA above.
+# Don't modify the following constants. They are generated in runtime according to the settings above.
+ITEMS_DATA = get_items_data(DATA_SOURCE)
 ITEMS_QUANTITY = GRID_SIZE = ITEMS_DATA.shape[0]

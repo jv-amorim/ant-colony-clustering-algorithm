@@ -1,0 +1,1497 @@
+[
+  {
+    "gene": "CTNNB1",
+    "wnl": 60395,
+    "tis": 313659
+  },
+  {
+    "gene": "TP53",
+    "wnl": 58315,
+    "tis": 399511
+  },
+  {
+    "gene": "CREBBP",
+    "wnl": 50693,
+    "tis": 389859
+  },
+  {
+    "gene": "SRC",
+    "wnl": 49642,
+    "tis": 341259
+  },
+  {
+    "gene": "EGFR",
+    "wnl": 45452,
+    "tis": 262443
+  },
+  {
+    "gene": "JUN",
+    "wnl": 44468,
+    "tis": 227175
+  },
+  {
+    "gene": "MYC",
+    "wnl": 41452,
+    "tis": 248373
+  },
+  {
+    "gene": "FZD5",
+    "wnl": 34450,
+    "tis": 42980
+  },
+  {
+    "gene": "SFRP2",
+    "wnl": 33990,
+    "tis": 252230
+  },
+  {
+    "gene": "GSK3B",
+    "wnl": 33932,
+    "tis": 130475
+  },
+  {
+    "gene": "ITGB1",
+    "wnl": 32676,
+    "tis": 176329
+  },
+  {
+    "gene": "DVL3",
+    "wnl": 30325,
+    "tis": 55790
+  },
+  {
+    "gene": "DVL2",
+    "wnl": 29505,
+    "tis": 72031
+  },
+  {
+    "gene": "DVL1",
+    "wnl": 29417,
+    "tis": 60555
+  },
+  {
+    "gene": "NOTCH1",
+    "wnl": 29257,
+    "tis": 113681
+  },
+  {
+    "gene": "FZD4",
+    "wnl": 28489,
+    "tis": 37747
+  },
+  {
+    "gene": "FZD8",
+    "wnl": 28407,
+    "tis": 35875
+  },
+  {
+    "gene": "FZD7",
+    "wnl": 27777,
+    "tis": 34855
+  },
+  {
+    "gene": "WNT3A",
+    "wnl": 27391,
+    "tis": 37386
+  },
+  {
+    "gene": "PRKCA",
+    "wnl": 27339,
+    "tis": 247599
+  },
+  {
+    "gene": "EGF",
+    "wnl": 25241,
+    "tis": 132196
+  },
+  {
+    "gene": "AXIN1",
+    "wnl": 25147,
+    "tis": 115308
+  },
+  {
+    "gene": "FZD1",
+    "wnl": 24717,
+    "tis": 31663
+  },
+  {
+    "gene": "CCND1",
+    "wnl": 24438,
+    "tis": 145046
+  },
+  {
+    "gene": "PCNA",
+    "wnl": 23541,
+    "tis": 339247
+  },
+  {
+    "gene": "WNT5A",
+    "wnl": 22957,
+    "tis": 30049
+  },
+  {
+    "gene": "STAT3",
+    "wnl": 22667,
+    "tis": 162970
+  },
+  {
+    "gene": "WNT1",
+    "wnl": 22350,
+    "tis": 67381
+  },
+  {
+    "gene": "APC",
+    "wnl": 22036,
+    "tis": 63543
+  },
+  {
+    "gene": "MMP2",
+    "wnl": 21924,
+    "tis": 62493
+  },
+  {
+    "gene": "FZD9",
+    "wnl": 21923,
+    "tis": 27829
+  },
+  {
+    "gene": "FZD6",
+    "wnl": 21839,
+    "tis": 29541
+  },
+  {
+    "gene": "ITGB4",
+    "wnl": 21686,
+    "tis": 111477
+  },
+  {
+    "gene": "FZD2",
+    "wnl": 21654,
+    "tis": 33522
+  },
+  {
+    "gene": "FZD10",
+    "wnl": 20414,
+    "tis": 27576
+  },
+  {
+    "gene": "ERBB2",
+    "wnl": 19792,
+    "tis": 110274
+  },
+  {
+    "gene": "FZD3",
+    "wnl": 19152,
+    "tis": 29063
+  },
+  {
+    "gene": "WNT2",
+    "wnl": 18784,
+    "tis": 19063
+  },
+  {
+    "gene": "TGFB1",
+    "wnl": 18559,
+    "tis": 140710
+  },
+  {
+    "gene": "ITGAV",
+    "wnl": 18414,
+    "tis": 132191
+  },
+  {
+    "gene": "WNT3",
+    "wnl": 18339,
+    "tis": 18887
+  },
+  {
+    "gene": "TCF7L2",
+    "wnl": 18241,
+    "tis": 54624
+  },
+  {
+    "gene": "MDM2",
+    "wnl": 18090,
+    "tis": 188384
+  },
+  {
+    "gene": "NOTCH3",
+    "wnl": 18031,
+    "tis": 39525
+  },
+  {
+    "gene": "MSH2",
+    "wnl": 17566,
+    "tis": 174719
+  },
+  {
+    "gene": "ADAM10",
+    "wnl": 17551,
+    "tis": 56788
+  },
+  {
+    "gene": "CD44",
+    "wnl": 17427,
+    "tis": 101292
+  },
+  {
+    "gene": "AXIN2",
+    "wnl": 17183,
+    "tis": 33876
+  },
+  {
+    "gene": "SMAD2",
+    "wnl": 16883,
+    "tis": 139321
+  },
+  {
+    "gene": "BTRC",
+    "wnl": 15608,
+    "tis": 156172
+  },
+  {
+    "gene": "BIRC5",
+    "wnl": 15588,
+    "tis": 244529
+  },
+  {
+    "gene": "GLI3",
+    "wnl": 14994,
+    "tis": 39441
+  },
+  {
+    "gene": "DLL1",
+    "wnl": 14924,
+    "tis": 34107
+  },
+  {
+    "gene": "MMP9",
+    "wnl": 14922,
+    "tis": 53246
+  },
+  {
+    "gene": "ITGA6",
+    "wnl": 14454,
+    "tis": 98097
+  },
+  {
+    "gene": "NOTCH2",
+    "wnl": 14193,
+    "tis": 26365
+  },
+  {
+    "gene": "AR",
+    "wnl": 14176,
+    "tis": 185357
+  },
+  {
+    "gene": "TGFB2",
+    "wnl": 14137,
+    "tis": 54142
+  },
+  {
+    "gene": "BCL2",
+    "wnl": 14021,
+    "tis": 98452
+  },
+  {
+    "gene": "MMP1",
+    "wnl": 14017,
+    "tis": 35288
+  },
+  {
+    "gene": "XPA",
+    "wnl": 13364,
+    "tis": 39106
+  },
+  {
+    "gene": "GLI1",
+    "wnl": 13279,
+    "tis": 35339
+  },
+  {
+    "gene": "SUFU",
+    "wnl": 13055,
+    "tis": 23525
+  },
+  {
+    "gene": "ITGA3",
+    "wnl": 12665,
+    "tis": 93821
+  },
+  {
+    "gene": "JAG1",
+    "wnl": 12571,
+    "tis": 23268
+  },
+  {
+    "gene": "LAMA5",
+    "wnl": 12544,
+    "tis": 33301
+  },
+  {
+    "gene": "HBEGF",
+    "wnl": 12540,
+    "tis": 28508
+  },
+  {
+    "gene": "VDR",
+    "wnl": 12086,
+    "tis": 90424
+  },
+  {
+    "gene": "LAMC2",
+    "wnl": 11958,
+    "tis": 30326
+  },
+  {
+    "gene": "MCM2",
+    "wnl": 11890,
+    "tis": 224163
+  },
+  {
+    "gene": "ADAM17",
+    "wnl": 11870,
+    "tis": 26055
+  },
+  {
+    "gene": "BAX",
+    "wnl": 11856,
+    "tis": 46406
+  },
+  {
+    "gene": "TERT",
+    "wnl": 11484,
+    "tis": 84690
+  },
+  {
+    "gene": "MMP3",
+    "wnl": 11356,
+    "tis": 24499
+  },
+  {
+    "gene": "IL8",
+    "wnl": 11354,
+    "tis": 75038
+  },
+  {
+    "gene": "WNT7A",
+    "wnl": 11168,
+    "tis": 14996
+  },
+  {
+    "gene": "TIMP1",
+    "wnl": 11068,
+    "tis": 40113
+  },
+  {
+    "gene": "LEF1",
+    "wnl": 11044,
+    "tis": 45473
+  },
+  {
+    "gene": "FOXM1",
+    "wnl": 10990,
+    "tis": 100001
+  },
+  {
+    "gene": "GLI2",
+    "wnl": 10865,
+    "tis": 31126
+  },
+  {
+    "gene": "ERCC5",
+    "wnl": 10860,
+    "tis": 40128
+  },
+  {
+    "gene": "ERCC4",
+    "wnl": 10844,
+    "tis": 47162
+  },
+  {
+    "gene": "CREB1",
+    "wnl": 10546,
+    "tis": 81144
+  },
+  {
+    "gene": "WNT7B",
+    "wnl": 10507,
+    "tis": 16700
+  },
+  {
+    "gene": "APC2",
+    "wnl": 10448,
+    "tis": 42687
+  },
+  {
+    "gene": "WNT10A",
+    "wnl": 10397,
+    "tis": 13969
+  },
+  {
+    "gene": "ERCC2",
+    "wnl": 10339,
+    "tis": 84344
+  },
+  {
+    "gene": "WNT4",
+    "wnl": 10271,
+    "tis": 14112
+  },
+  {
+    "gene": "ERCC3",
+    "wnl": 10253,
+    "tis": 78752
+  },
+  {
+    "gene": "HMMR",
+    "wnl": 10143,
+    "tis": 166519
+  },
+  {
+    "gene": "WNT8A",
+    "wnl": 10087,
+    "tis": 14443
+  },
+  {
+    "gene": "MCL1",
+    "wnl": 10077,
+    "tis": 37166
+  },
+  {
+    "gene": "BCL2L1",
+    "wnl": 10039,
+    "tis": 64015
+  },
+  {
+    "gene": "DCN",
+    "wnl": 9977,
+    "tis": 77288
+  },
+  {
+    "gene": "KRT5",
+    "wnl": 9959,
+    "tis": 15762
+  },
+  {
+    "gene": "PDGFRA",
+    "wnl": 9955,
+    "tis": 83143
+  },
+  {
+    "gene": "ITGA2",
+    "wnl": 9945,
+    "tis": 45335
+  },
+  {
+    "gene": "RARA",
+    "wnl": 9940,
+    "tis": 105550
+  },
+  {
+    "gene": "WNT10B",
+    "wnl": 9934,
+    "tis": 55061
+  },
+  {
+    "gene": "LAMB2",
+    "wnl": 9794,
+    "tis": 26352
+  },
+  {
+    "gene": "XPC",
+    "wnl": 9700,
+    "tis": 31593
+  },
+  {
+    "gene": "VCAM1",
+    "wnl": 9682,
+    "tis": 70387
+  },
+  {
+    "gene": "WNT8B",
+    "wnl": 9601,
+    "tis": 13785
+  },
+  {
+    "gene": "WNT11",
+    "wnl": 9582,
+    "tis": 15146
+  },
+  {
+    "gene": "ERCC1",
+    "wnl": 9534,
+    "tis": 42893
+  },
+  {
+    "gene": "KRT14",
+    "wnl": 9496,
+    "tis": 10297
+  },
+  {
+    "gene": "STK36",
+    "wnl": 9492,
+    "tis": 10487
+  },
+  {
+    "gene": "IL2RA",
+    "wnl": 9475,
+    "tis": 73800
+  },
+  {
+    "gene": "RASA1",
+    "wnl": 9437,
+    "tis": 94209
+  },
+  {
+    "gene": "LMNB1",
+    "wnl": 9268,
+    "tis": 106607
+  },
+  {
+    "gene": "ITGA4",
+    "wnl": 9219,
+    "tis": 87581
+  },
+  {
+    "gene": "DDB2",
+    "wnl": 9204,
+    "tis": 30458
+  },
+  {
+    "gene": "CHEK2",
+    "wnl": 9174,
+    "tis": 94160
+  },
+  {
+    "gene": "CDH1",
+    "wnl": 9154,
+    "tis": 77327
+  },
+  {
+    "gene": "WNT5B",
+    "wnl": 9100,
+    "tis": 14193
+  },
+  {
+    "gene": "KIT",
+    "wnl": 9081,
+    "tis": 87062
+  },
+  {
+    "gene": "WNT2B",
+    "wnl": 9029,
+    "tis": 14256
+  },
+  {
+    "gene": "CCL5",
+    "wnl": 9027,
+    "tis": 167118
+  },
+  {
+    "gene": "CDK6",
+    "wnl": 8933,
+    "tis": 45139
+  },
+  {
+    "gene": "SHH",
+    "wnl": 8912,
+    "tis": 20278
+  },
+  {
+    "gene": "JAK3",
+    "wnl": 8862,
+    "tis": 120849
+  },
+  {
+    "gene": "TNC",
+    "wnl": 8826,
+    "tis": 25001
+  },
+  {
+    "gene": "WNT9A",
+    "wnl": 8800,
+    "tis": 13600
+  },
+  {
+    "gene": "WNT6",
+    "wnl": 8800,
+    "tis": 13718
+  },
+  {
+    "gene": "WNT9B",
+    "wnl": 8800,
+    "tis": 14075
+  },
+  {
+    "gene": "WNT16",
+    "wnl": 8800,
+    "tis": 14329
+  },
+  {
+    "gene": "LMNA",
+    "wnl": 8768,
+    "tis": 38753
+  },
+  {
+    "gene": "GSTP1",
+    "wnl": 8508,
+    "tis": 73592
+  },
+  {
+    "gene": "TGFBR2",
+    "wnl": 8493,
+    "tis": 68661
+  },
+  {
+    "gene": "SAP30",
+    "wnl": 8481,
+    "tis": 54757
+  },
+  {
+    "gene": "PTCH1",
+    "wnl": 8423,
+    "tis": 12178
+  },
+  {
+    "gene": "ADAM12",
+    "wnl": 8325,
+    "tis": 28868
+  },
+  {
+    "gene": "VEGFA",
+    "wnl": 8235,
+    "tis": 45407
+  },
+  {
+    "gene": "SAP18",
+    "wnl": 8206,
+    "tis": 61891
+  },
+  {
+    "gene": "TP63",
+    "wnl": 8136,
+    "tis": 57298
+  },
+  {
+    "gene": "GSTM3",
+    "wnl": 7980,
+    "tis": 55581
+  },
+  {
+    "gene": "CDKN2A",
+    "wnl": 7941,
+    "tis": 70174
+  },
+  {
+    "gene": "TCF7",
+    "wnl": 7904,
+    "tis": 17328
+  },
+  {
+    "gene": "EDN1",
+    "wnl": 7880,
+    "tis": 143118
+  },
+  {
+    "gene": "MSH3",
+    "wnl": 7736,
+    "tis": 19490
+  },
+  {
+    "gene": "GSTM1",
+    "wnl": 7715,
+    "tis": 55807
+  },
+  {
+    "gene": "KRT18",
+    "wnl": 7591,
+    "tis": 38152
+  },
+  {
+    "gene": "KRT17",
+    "wnl": 7526,
+    "tis": 65210
+  },
+  {
+    "gene": "LMNB2",
+    "wnl": 7509,
+    "tis": 68523
+  },
+  {
+    "gene": "EPHB2",
+    "wnl": 7501,
+    "tis": 49016
+  },
+  {
+    "gene": "CXCR4",
+    "wnl": 7199,
+    "tis": 87089
+  },
+  {
+    "gene": "BTC",
+    "wnl": 7163,
+    "tis": 9495
+  },
+  {
+    "gene": "PLAU",
+    "wnl": 7132,
+    "tis": 46596
+  },
+  {
+    "gene": "FAS",
+    "wnl": 7073,
+    "tis": 42339
+  },
+  {
+    "gene": "TCF7L1",
+    "wnl": 6945,
+    "tis": 18170
+  },
+  {
+    "gene": "F13A1",
+    "wnl": 6921,
+    "tis": 47411
+  },
+  {
+    "gene": "ILK",
+    "wnl": 6866,
+    "tis": 54563
+  },
+  {
+    "gene": "DHH",
+    "wnl": 6696,
+    "tis": 7211
+  },
+  {
+    "gene": "COL17A1",
+    "wnl": 6661,
+    "tis": 46790
+  },
+  {
+    "gene": "PPARG",
+    "wnl": 6647,
+    "tis": 83393
+  },
+  {
+    "gene": "CTNNBIP1",
+    "wnl": 6641,
+    "tis": 33231
+  },
+  {
+    "gene": "BMP2",
+    "wnl": 6618,
+    "tis": 40022
+  },
+  {
+    "gene": "MLH1",
+    "wnl": 6524,
+    "tis": 36995
+  },
+  {
+    "gene": "CFLAR",
+    "wnl": 6455,
+    "tis": 33862
+  },
+  {
+    "gene": "CD3E",
+    "wnl": 6449,
+    "tis": 83567
+  },
+  {
+    "gene": "MMP10",
+    "wnl": 6366,
+    "tis": 7292
+  },
+  {
+    "gene": "TGFA",
+    "wnl": 6346,
+    "tis": 18475
+  },
+  {
+    "gene": "IRF4",
+    "wnl": 6300,
+    "tis": 68280
+  },
+  {
+    "gene": "RARB",
+    "wnl": 6204,
+    "tis": 37992
+  },
+  {
+    "gene": "IL4",
+    "wnl": 6172,
+    "tis": 7243
+  },
+  {
+    "gene": "ICAM1",
+    "wnl": 6161,
+    "tis": 56263
+  },
+  {
+    "gene": "POMC",
+    "wnl": 6146,
+    "tis": 197895
+  },
+  {
+    "gene": "ING1",
+    "wnl": 6003,
+    "tis": 31668
+  },
+  {
+    "gene": "CXCR3",
+    "wnl": 5964,
+    "tis": 54031
+  },
+  {
+    "gene": "MUC1",
+    "wnl": 5842,
+    "tis": 57873
+  },
+  {
+    "gene": "ALB",
+    "wnl": 5826,
+    "tis": 65330
+  },
+  {
+    "gene": "GPX1",
+    "wnl": 5784,
+    "tis": 33787
+  },
+  {
+    "gene": "PRKD1",
+    "wnl": 5674,
+    "tis": 27497
+  },
+  {
+    "gene": "CD3D",
+    "wnl": 5651,
+    "tis": 78632
+  },
+  {
+    "gene": "KRT15",
+    "wnl": 5561,
+    "tis": 9317
+  },
+  {
+    "gene": "MGST1",
+    "wnl": 5400,
+    "tis": 55104
+  },
+  {
+    "gene": "CYP1A1",
+    "wnl": 5400,
+    "tis": 79143
+  },
+  {
+    "gene": "CXCL11",
+    "wnl": 5243,
+    "tis": 146762
+  },
+  {
+    "gene": "FASLG",
+    "wnl": 5154,
+    "tis": 63547
+  },
+  {
+    "gene": "PTHLH",
+    "wnl": 5121,
+    "tis": 64090
+  },
+  {
+    "gene": "CXCL12",
+    "wnl": 4994,
+    "tis": 60506
+  },
+  {
+    "gene": "SUMO3",
+    "wnl": 4948,
+    "tis": 50757
+  },
+  {
+    "gene": "MKI67",
+    "wnl": 4933,
+    "tis": 39837
+  },
+  {
+    "gene": "PTGS2",
+    "wnl": 4796,
+    "tis": 65738
+  },
+  {
+    "gene": "NOS2",
+    "wnl": 4789,
+    "tis": 36513
+  },
+  {
+    "gene": "NCAM1",
+    "wnl": 4789,
+    "tis": 71972
+  },
+  {
+    "gene": "KRT8",
+    "wnl": 4780,
+    "tis": 27625
+  },
+  {
+    "gene": "SMO",
+    "wnl": 4779,
+    "tis": 7691
+  },
+  {
+    "gene": "PTCH2",
+    "wnl": 4748,
+    "tis": 45830
+  },
+  {
+    "gene": "LGALS3",
+    "wnl": 4544,
+    "tis": 17045
+  },
+  {
+    "gene": "PRKCI",
+    "wnl": 4396,
+    "tis": 73582
+  },
+  {
+    "gene": "NGFR",
+    "wnl": 4340,
+    "tis": 79611
+  },
+  {
+    "gene": "ATF2",
+    "wnl": 4322,
+    "tis": 46393
+  },
+  {
+    "gene": "IL1B",
+    "wnl": 4282,
+    "tis": 50669
+  },
+  {
+    "gene": "CDKN2B",
+    "wnl": 4220,
+    "tis": 19685
+  },
+  {
+    "gene": "ING2",
+    "wnl": 4186,
+    "tis": 40583
+  },
+  {
+    "gene": "EDN2",
+    "wnl": 4173,
+    "tis": 113339
+  },
+  {
+    "gene": "MC1R",
+    "wnl": 4166,
+    "tis": 63803
+  },
+  {
+    "gene": "TYRP1",
+    "wnl": 4125,
+    "tis": 14893
+  },
+  {
+    "gene": "MFNG",
+    "wnl": 4078,
+    "tis": 7123
+  },
+  {
+    "gene": "DST",
+    "wnl": 4018,
+    "tis": 9574
+  },
+  {
+    "gene": "LGALS1",
+    "wnl": 3937,
+    "tis": 18854
+  },
+  {
+    "gene": "CAPN1",
+    "wnl": 3937,
+    "tis": 31471
+  },
+  {
+    "gene": "TIMP2",
+    "wnl": 3915,
+    "tis": 6885
+  },
+  {
+    "gene": "IL6",
+    "wnl": 3790,
+    "tis": 32269
+  },
+  {
+    "gene": "HHIP",
+    "wnl": 3742,
+    "tis": 29520
+  },
+  {
+    "gene": "RUNX3",
+    "wnl": 3723,
+    "tis": 28920
+  },
+  {
+    "gene": "POLH",
+    "wnl": 3639,
+    "tis": 22169
+  },
+  {
+    "gene": "CKS1B",
+    "wnl": 3593,
+    "tis": 113156
+  },
+  {
+    "gene": "CD36",
+    "wnl": 3489,
+    "tis": 61167
+  },
+  {
+    "gene": "MMP11",
+    "wnl": 3464,
+    "tis": 5225
+  },
+  {
+    "gene": "PTEN",
+    "wnl": 3442,
+    "tis": 104605
+  },
+  {
+    "gene": "GJA1",
+    "wnl": 3292,
+    "tis": 42161
+  },
+  {
+    "gene": "TYR",
+    "wnl": 3252,
+    "tis": 62298
+  },
+  {
+    "gene": "GAS1",
+    "wnl": 3221,
+    "tis": 4701
+  },
+  {
+    "gene": "NBN",
+    "wnl": 3215,
+    "tis": 30748
+  },
+  {
+    "gene": "KRT16",
+    "wnl": 3194,
+    "tis": 3689
+  },
+  {
+    "gene": "S100B",
+    "wnl": 3193,
+    "tis": 18726
+  },
+  {
+    "gene": "HSPB1",
+    "wnl": 3115,
+    "tis": 7834
+  },
+  {
+    "gene": "F2RL1",
+    "wnl": 3040,
+    "tis": 124788
+  },
+  {
+    "gene": "GFAP",
+    "wnl": 2876,
+    "tis": 13949
+  },
+  {
+    "gene": "FGF2",
+    "wnl": 2841,
+    "tis": 24990
+  },
+  {
+    "gene": "BMP4",
+    "wnl": 2751,
+    "tis": 32617
+  },
+  {
+    "gene": "PTGER4",
+    "wnl": 2700,
+    "tis": 57536
+  },
+  {
+    "gene": "TRPC1",
+    "wnl": 2667,
+    "tis": 14231
+  },
+  {
+    "gene": "TRPC4",
+    "wnl": 2667,
+    "tis": 34996
+  },
+  {
+    "gene": "SELE",
+    "wnl": 2645,
+    "tis": 18850
+  },
+  {
+    "gene": "GC",
+    "wnl": 2568,
+    "tis": 17221
+  },
+  {
+    "gene": "PPP1R13L",
+    "wnl": 2494,
+    "tis": 4320
+  },
+  {
+    "gene": "KIF4B",
+    "wnl": 2492,
+    "tis": 47970
+  },
+  {
+    "gene": "TNF",
+    "wnl": 2479,
+    "tis": 23776
+  },
+  {
+    "gene": "ACTC1",
+    "wnl": 2448,
+    "tis": 9093
+  },
+  {
+    "gene": "GREM1",
+    "wnl": 2420,
+    "tis": 8772
+  },
+  {
+    "gene": "EPN3",
+    "wnl": 2400,
+    "tis": 14181
+  },
+  {
+    "gene": "CD3EAP",
+    "wnl": 2371,
+    "tis": 9557
+  },
+  {
+    "gene": "CD80",
+    "wnl": 2290,
+    "tis": 46364
+  },
+  {
+    "gene": "GZMB",
+    "wnl": 2286,
+    "tis": 45425
+  },
+  {
+    "gene": "SOD2",
+    "wnl": 2210,
+    "tis": 24193
+  },
+  {
+    "gene": "MT2A",
+    "wnl": 2205,
+    "tis": 8330
+  },
+  {
+    "gene": "MT1A",
+    "wnl": 2205,
+    "tis": 6215
+  },
+  {
+    "gene": "BRAF",
+    "wnl": 2145,
+    "tis": 64126
+  },
+  {
+    "gene": "CAPN2",
+    "wnl": 2139,
+    "tis": 16989
+  },
+  {
+    "gene": "BCCIP",
+    "wnl": 2107,
+    "tis": 112777
+  },
+  {
+    "gene": "XRCC1",
+    "wnl": 2086,
+    "tis": 25158
+  },
+  {
+    "gene": "HLA-G",
+    "wnl": 2039,
+    "tis": 21026
+  },
+  {
+    "gene": "FANCC",
+    "wnl": 2029,
+    "tis": 47820
+  },
+  {
+    "gene": "MMP13",
+    "wnl": 1950,
+    "tis": 8915
+  },
+  {
+    "gene": "RCC2",
+    "wnl": 1946,
+    "tis": 74473
+  },
+  {
+    "gene": "ROR2",
+    "wnl": 1863,
+    "tis": 3999
+  },
+  {
+    "gene": "FHIT",
+    "wnl": 1863,
+    "tis": 8056
+  },
+  {
+    "gene": "SOX9",
+    "wnl": 1862,
+    "tis": 6841
+  },
+  {
+    "gene": "FOXP3",
+    "wnl": 1800,
+    "tis": 16671
+  },
+  {
+    "gene": "KLF6",
+    "wnl": 1739,
+    "tis": 12767
+  },
+  {
+    "gene": "HNF1B",
+    "wnl": 1720,
+    "tis": 3103
+  },
+  {
+    "gene": "IL10",
+    "wnl": 1700,
+    "tis": 12728
+  },
+  {
+    "gene": "IL5",
+    "wnl": 1700,
+    "tis": 25265
+  },
+  {
+    "gene": "ACTA2",
+    "wnl": 1694,
+    "tis": 25625
+  },
+  {
+    "gene": "TNFSF8",
+    "wnl": 1646,
+    "tis": 15880
+  },
+  {
+    "gene": "TNFRSF8",
+    "wnl": 1646,
+    "tis": 6179
+  },
+  {
+    "gene": "NRP1",
+    "wnl": 1615,
+    "tis": 24463
+  },
+  {
+    "gene": "TAP1",
+    "wnl": 1606,
+    "tis": 42994
+  },
+  {
+    "gene": "RBP1",
+    "wnl": 1579,
+    "tis": 7426
+  },
+  {
+    "gene": "CTSB",
+    "wnl": 1521,
+    "tis": 24280
+  },
+  {
+    "gene": "RNASEL",
+    "wnl": 1521,
+    "tis": 37689
+  },
+  {
+    "gene": "TYMP",
+    "wnl": 1455,
+    "tis": 32224
+  },
+  {
+    "gene": "HFE",
+    "wnl": 1420,
+    "tis": 21097
+  },
+  {
+    "gene": "KRT20",
+    "wnl": 1376,
+    "tis": 2178
+  },
+  {
+    "gene": "KRT7",
+    "wnl": 1296,
+    "tis": 3162
+  },
+  {
+    "gene": "MXI1",
+    "wnl": 1243,
+    "tis": 5193
+  },
+  {
+    "gene": "PLAGL1",
+    "wnl": 1242,
+    "tis": 4347
+  },
+  {
+    "gene": "MME",
+    "wnl": 1242,
+    "tis": 10490
+  },
+  {
+    "gene": "TWIST1",
+    "wnl": 1242,
+    "tis": 18922
+  },
+  {
+    "gene": "NQO1",
+    "wnl": 1241,
+    "tis": 4343
+  },
+  {
+    "gene": "MYCN",
+    "wnl": 1241,
+    "tis": 14782
+  },
+  {
+    "gene": "AREG",
+    "wnl": 1240,
+    "tis": 3425
+  },
+  {
+    "gene": "CYLD",
+    "wnl": 1240,
+    "tis": 27797
+  },
+  {
+    "gene": "CYP24A1",
+    "wnl": 1228,
+    "tis": 1839
+  },
+  {
+    "gene": "ASIP",
+    "wnl": 1167,
+    "tis": 10765
+  },
+  {
+    "gene": "XRCC3",
+    "wnl": 1160,
+    "tis": 19777
+  },
+  {
+    "gene": "TLR7",
+    "wnl": 900,
+    "tis": 11681
+  },
+  {
+    "gene": "TDGF1",
+    "wnl": 900,
+    "tis": 12818
+  },
+  {
+    "gene": "SAT1",
+    "wnl": 900,
+    "tis": 14187
+  },
+  {
+    "gene": "ODC1",
+    "wnl": 900,
+    "tis": 15656
+  },
+  {
+    "gene": "NT5M",
+    "wnl": 900,
+    "tis": 68324
+  },
+  {
+    "gene": "PADI4",
+    "wnl": 846,
+    "tis": 3950
+  },
+  {
+    "gene": "CYP27B1",
+    "wnl": 800,
+    "tis": 4826
+  },
+  {
+    "gene": "HSD11B1",
+    "wnl": 728,
+    "tis": 758
+  },
+  {
+    "gene": "RHOU",
+    "wnl": 720,
+    "tis": 72122
+  },
+  {
+    "gene": "FAP",
+    "wnl": 671,
+    "tis": 16061
+  },
+  {
+    "gene": "LAD1",
+    "wnl": 621,
+    "tis": 1916
+  },
+  {
+    "gene": "KRT19",
+    "wnl": 621,
+    "tis": 11051
+  },
+  {
+    "gene": "MCRS1",
+    "wnl": 621,
+    "tis": 48971
+  },
+  {
+    "gene": "KRT10",
+    "wnl": 620,
+    "tis": 6271
+  },
+  {
+    "gene": "PDGFRL",
+    "wnl": 565,
+    "tis": 1321
+  },
+  {
+    "gene": "OCA2",
+    "wnl": 519,
+    "tis": 3642
+  },
+  {
+    "gene": "RARRES3",
+    "wnl": 496,
+    "tis": 13989
+  },
+  {
+    "gene": "CTSC",
+    "wnl": 486,
+    "tis": 2251
+  },
+  {
+    "gene": "ANPEP",
+    "wnl": 455,
+    "tis": 19094
+  },
+  {
+    "gene": "HAS3",
+    "wnl": 400,
+    "tis": 1927
+  }
+]
