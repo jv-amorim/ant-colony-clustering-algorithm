@@ -21,7 +21,7 @@ class Colony:
     for row_index in range(GRID_SIZE):
       for column_index in range(GRID_SIZE):
         is_valid_position = \
-          self.grid.is_the_grid_cell_empty(row_index, column_index) \
+          not self.grid.is_the_grid_cell_empty(row_index, column_index) \
           and \
           not self.__does_grid_cell_already_have_an_ant((row_index, column_index))
         if is_valid_position:
@@ -45,7 +45,7 @@ class Colony:
   def __make_the_ant_try_to_drop_her_current_item(self, ant):
       random_value = random.random()
       drop_probability = self.clustering_calculator.calculate_drop_probability(ant)
-      ant.is_holding = drop_probability < random_value     
+      ant.is_holding = drop_probability < random_value
 
   def __make_the_ant_try_to_pick_a_random_item(self, ant):
     item_random_index = random.randint(0, ITEMS_QUANTITY - 1)

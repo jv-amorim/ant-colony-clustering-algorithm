@@ -5,8 +5,8 @@ S = 3
 KP = 0.3
 KD = 0.3
 ALPHA = 0.5
-ANT_QUANTITY = 1
-MAX_ITERATIONS = 1000
+ANT_QUANTITY = 3
+MAX_ITERATIONS = 500
 ITEMS_DATA = np.array([[1.60, 0.70],
                        [1.64, 0.90],
                        [1.85, 0.03],
