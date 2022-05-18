@@ -1,6 +1,7 @@
 import enum
 import json
 import numpy as np
+import random
 
 
 DATA_BASE_PATH = 'data/'
@@ -9,6 +10,7 @@ DATA_BASE_PATH = 'data/'
 class DataSources(enum.Enum):
   Genes = 1
   Players = 2
+  RandomPlayers = 3
 
 
 def get_items_data(data_source):
@@ -16,6 +18,8 @@ def get_items_data(data_source):
     return __get_genes_data()
   if data_source == DataSources.Players:
     return __get_players_data()
+  if data_source == DataSources.RandomPlayers:
+    return __get_random_players()
 
 
 def __get_genes_data():
@@ -54,3 +58,20 @@ def __get_players_data():
     players_data.append(player_data)
 
   return np.array(players_data, dtype=[('height', '<f4'), ('score', '<f4'), ('id', 'U10')])
+
+
+def __get_random_players():
+  quantity = 40
+  players = []
+
+  for _ in range(quantity / 2):
+    random_height = random.uniform(1.8, 2.0)
+    random_score = random.uniform(0, 0.1)
+    players.append([random_height, random_score])
+
+  for _ in range(quantity / 2):
+    random_height = random.uniform(1.5, 1.65)
+    random_score = random.uniform(0.8, 1)
+    players.append([random_height, random_score])
+
+  return np.array(players)
