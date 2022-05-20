@@ -1,5 +1,6 @@
 import enum
 import json
+import math
 import numpy as np
 import random
 
@@ -64,12 +65,12 @@ def __get_random_players():
   quantity = 40
   players = []
 
-  for _ in range(quantity / 2):
+  for _ in range(math.floor(quantity / 2)):
     random_height = random.uniform(1.8, 2.0)
     random_score = random.uniform(0, 0.1)
     players.append([random_height, random_score])
 
-  for _ in range(quantity / 2):
+  for _ in range(math.floor(quantity / 2)):
     random_height = random.uniform(1.5, 1.65)
     random_score = random.uniform(0.8, 1)
     players.append([random_height, random_score])

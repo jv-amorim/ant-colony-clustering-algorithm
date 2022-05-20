@@ -25,7 +25,7 @@ class Colony:
           and \
           not self.__does_grid_cell_already_have_an_ant((row_index, column_index))
         if is_valid_position:
-          return Ant((row_index, column_index), True, self)
+          return Ant((row_index, column_index), True, self.grid)
   
   def __does_grid_cell_already_have_an_ant(self, cell_coordinates):
     for ant in self.ants:

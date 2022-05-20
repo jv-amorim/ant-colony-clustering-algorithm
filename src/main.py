@@ -14,27 +14,27 @@ def main():
   for _ in range(MAX_ITERATIONS):
     colony.perform_colony_iteration()
 
-  write_output_file(grid_manager)
+  clusters = grid_manager.find_clusters()
+
+  write_output_file(grid_manager.grid, clusters)
 
 
-def write_output_file(grid_manager):
-  output_content = \
-    str(grid_manager.grid.tolist()) \
-    .replace('-1', '_') \
-    .replace('[', '') \
-    .replace('], ', '\n') \
-    .replace(']', '') \
-    .replace(',', '') \
-    .replace('_', '__')
-  
+def write_output_file(grid, clusters):
+  grid_as_string = convert_numpy_array_to_output_string(grid)
+  clusters_as_string = convert_numpy_array_to_output_string(clusters)
+
   file = open('output/output.txt', 'w')
-
-  for item in output_content.split(' '):
-    if len(item) == 1:
-      item = '0' + item
-    file.write(item + ' ')
-
+  file.write(f'{grid_as_string}\n\n\n{clusters_as_string}')
   file.close()
+
+
+def convert_numpy_array_to_output_string(array):
+    return \
+      str(array.tolist()) \
+      .replace('], ', '],\n') \
+      .replace('[[', '[') \
+      .replace(']]', ']') \
+      .replace('-1', '_')
 
 
 if __name__ == '__main__':

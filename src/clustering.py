@@ -18,7 +18,7 @@ class ClusteringCalculator:
     return pow(division_value, 2)
 
   def __calculate_density(self, ant):
-    (neighborhood_start, neighborhood_end) = ant.calculate_neighborhood(S)
+    (neighborhood_start, neighborhood_end) = self.grid.calculate_neighborhood(ant.position, S)
     
     item_being_held = self.grid.get_grid_value_at(ant.position)
     sum = 0.0
