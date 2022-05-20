@@ -27,7 +27,7 @@ def write_output_file(grid, clusters, score):
   global cont
   cont = cont + 1
 
-  file_name = "output/teste_B4_" + str(cont) + ".txt"
+  file_name = "output/teste_Alfa9_" + str(cont) + ".txt"
 
   file = open(file_name, 'w')
   file.write(f'Grid:\n\n{grid_as_string}\n\n\n')
