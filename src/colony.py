@@ -7,8 +7,8 @@ from consts import ANT_QUANTITY, GRID_SIZE, ITEMS_QUANTITY
 class Colony:
   ants = None
 
-  def __init__(self, grid, clustering_calculator):
-    self.grid = grid
+  def __init__(self, grid_manager, clustering_calculator):
+    self.grid_manager = grid_manager
     self.clustering_calculator = clustering_calculator
     self.__generate_colony_ants()
 
@@ -21,11 +21,11 @@ class Colony:
     for row_index in range(GRID_SIZE):
       for column_index in range(GRID_SIZE):
         is_valid_position = \
-          not self.grid.is_the_grid_cell_empty(row_index, column_index) \
+          not self.grid_manager.is_the_grid_cell_empty(row_index, column_index) \
           and \
           not self.__does_grid_cell_already_have_an_ant((row_index, column_index))
         if is_valid_position:
-          return Ant((row_index, column_index), True, self.grid)
+          return Ant((row_index, column_index), True, self.grid_manager)
   
   def __does_grid_cell_already_have_an_ant(self, cell_coordinates):
     for ant in self.ants:
@@ -50,14 +50,14 @@ class Colony:
 
   def __make_the_ant_try_to_pick_a_random_item(self, ant):
     item_random_index = random.randint(0, ITEMS_QUANTITY - 1)
-    item_coordinates = self.grid.get_item_coordinates(item_random_index)
+    item_coordinates = self.grid_manager.get_item_coordinates(item_random_index)
 
     if self.__does_grid_cell_already_have_an_ant(item_coordinates):
       return
 
     for row_index in range(GRID_SIZE):
       for column_index in range(GRID_SIZE):
-        if self.grid.get_grid_value_at((row_index, column_index)) != item_random_index:
+        if self.grid_manager.get_grid_value_at((row_index, column_index)) != item_random_index:
           continue
         self.__make_the_ant_try_to_pick_a_item(ant, (row_index, column_index))
 

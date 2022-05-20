@@ -14,17 +14,19 @@ def main():
   for _ in range(MAX_ITERATIONS):
     colony.perform_colony_iteration()
 
-  clusters = grid_manager.find_clusters()
+  (clusters, score) = clustering_calculator.calculate_clusters_and_silhouette_score()
 
-  write_output_file(grid_manager.grid, clusters)
+  write_output_file(grid_manager.grid, clusters, score)
 
 
-def write_output_file(grid, clusters):
-  grid_as_string = convert_numpy_array_to_output_string(grid)
+def write_output_file(grid, clusters, score):
   clusters_as_string = convert_numpy_array_to_output_string(clusters)
+  grid_as_string = convert_numpy_array_to_output_string(grid)
 
   file = open('output/output.txt', 'w')
-  file.write(f'{grid_as_string}\n\n\n{clusters_as_string}')
+  file.write(f'Grid:\n\n{grid_as_string}\n\n\n')
+  file.write(f'Clusters:\n\n{clusters_as_string}\n\n\n')
+  file.write(f'Silhouette Score:\n\n{score}')
   file.close()
 
 
