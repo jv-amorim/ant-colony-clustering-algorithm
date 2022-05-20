@@ -1,3 +1,4 @@
+import itertools
 import math
 import random
 import numpy as np
@@ -62,33 +63,43 @@ class GridManager:
     return (neighborhood_start, neighborhood_end)
 
   def find_clusters(self):
-    clusters = []
-    
+    neighbors_of_each_item = self.__get_neighbor_items_of_each_item_in_the_grid()
+    clusters = self.__unify_neighbors_of_each_item_into_clusters(neighbors_of_each_item)
+    return np.array(clusters, dtype=object)
+
+  def __get_neighbor_items_of_each_item_in_the_grid(self):    
+    neighbors_of_each_item = [None] * ITEMS_QUANTITY
+
     for row_index in range(GRID_SIZE):
       for column_index in range(GRID_SIZE):
-        current_value = self.grid[row_index, column_index]
-        if current_value == -1:
+        current_item = self.grid[row_index, column_index]
+        if current_item == -1:
+          continue        
+        neighbors = self.__get_neighbor_items_for_current_item((row_index, column_index))
+        neighbors_of_each_item[current_item] = neighbors
+
+    return neighbors_of_each_item
+
+  def __get_neighbor_items_for_current_item(self, item_coordinates):
+    neighbors = []
+    (neighborhood_start, neighborhood_end) = self.calculate_neighborhood(item_coordinates, 3)
+
+    for x in range(neighborhood_start[0], neighborhood_end[0] + 1):
+      for y in range(neighborhood_start[1], neighborhood_end[1] + 1):
+        if self.grid[x, y] == -1:
           continue
-        (neighborhood_start, neighborhood_end) = self.calculate_neighborhood((row_index, column_index), 3)
-        is_inserted = False
-        for x in range(neighborhood_start[0], neighborhood_end[0] + 1):
-          if is_inserted:
-            break
-          for y in range(neighborhood_start[1], neighborhood_end[1] + 1):
-            if is_inserted:
-              break
-            inner_value = self.grid[x, y]
-            if inner_value == -1:
-              continue
-            for cluster in clusters:
-              if is_inserted:
-                break
-              for cluster_item in cluster:
-                if cluster_item == inner_value:
-                  cluster.append(current_value)
-                  is_inserted = True
-                  break
-        if not is_inserted:
-          clusters.append([current_value])
+        neighbors.append(self.grid[x, y])
     
-    return np.array(clusters, dtype=object)
+    return neighbors
+
+  # Solution adapted from: https://stackoverflow.com/a/47564626/12331811.
+  def __unify_neighbors_of_each_item_into_clusters(self, neighbors_of_each_item):
+    neighbors_set = set(itertools.chain.from_iterable(neighbors_of_each_item)) 
+
+    for each in neighbors_set:
+      components = [x for x in neighbors_of_each_item if each in x]
+      for i in components:
+        neighbors_of_each_item.remove(i)
+      neighbors_of_each_item += [list(set(itertools.chain.from_iterable(components)))]
+
+    return neighbors_of_each_item

@@ -40,4 +40,6 @@ def convert_numpy_array_to_output_string(array):
 
 
 if __name__ == '__main__':
+  print('ACC is running. Please await, it may take a few minutes to finish.')
   main()
+  print('Done!')
