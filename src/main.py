@@ -4,6 +4,7 @@ from consts import MAX_ITERATIONS
 from distances import DistancesTable
 from grid import GridManager
 
+cont = -1
 
 def main():
   grid_manager = GridManager()
@@ -23,7 +24,12 @@ def write_output_file(grid, clusters, score):
   clusters_as_string = convert_numpy_array_to_output_string(clusters)
   grid_as_string = convert_numpy_array_to_output_string(grid)
 
-  file = open('output/output.txt', 'w')
+  global cont
+  cont = cont + 1
+
+  file_name = "output/teste_B4_" + str(cont) + ".txt"
+
+  file = open(file_name, 'w')
   file.write(f'Grid:\n\n{grid_as_string}\n\n\n')
   file.write(f'Clusters:\n\n{clusters_as_string}\n\n\n')
   file.write(f'Silhouette Score:\n\n{score}')
@@ -40,6 +46,7 @@ def convert_numpy_array_to_output_string(array):
 
 
 if __name__ == '__main__':
-  print('ACC is running. Please await, it may take a few minutes to finish.')
-  main()
-  print('Done!')
+  for _ in range(10):
+    # print('ACC is running. Please await, it may take a few minutes to finish.')
+    main()
+    # print('Done!')

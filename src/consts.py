@@ -3,10 +3,10 @@ from data import DataSources, get_items_data
 
 S = 3
 KP = 0.3
-KD = 0.3
+KD = 0.8
 ALPHA = 0.5
-ANT_QUANTITY = 3
-MAX_ITERATIONS = 500
+ANT_QUANTITY = 2
+MAX_ITERATIONS = 5000
 DATA_SOURCE = DataSources.Players
 
 
